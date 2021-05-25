@@ -1,6 +1,6 @@
 public class Main04 {
 	public static void main(String[] args) {
-		System.out.println("[メニュー]1:検索 2:登録 3:削除 4:変更>");
+		System.out.print("[メニュー]1:検索 2:登録 3:削除 4:変更>");
 
 // 		数字を受け付ける
 		int selected = new java.util.Scanner(System.in).nextInt();
