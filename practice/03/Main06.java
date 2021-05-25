@@ -3,7 +3,7 @@ public class Main06 {
 		System.out.println("【数あてゲーム】");
 
 // 		数字を0~9まででランダムに設定
-		int ans = new java.util.Random().nextInt(9);
+		int ans = new java.util.Random().nextInt();
 
         for(int i = 0; i < 5; i++){
             System.out.println("0~9の数字を入力してください。");
